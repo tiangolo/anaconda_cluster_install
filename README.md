@@ -1,7 +1,7 @@
 Anaconda Cluster Install
 ========================
 
-Tool to automate the installation of Anaconda Python in a cluster of linux machines.
+Tool to automate the installation of Anaconda Python in a cluster of linux computers.
 
 
 What it does
@@ -67,3 +67,5 @@ Or:
 
         cd ~/Downloads
         bash anaconda_install.sh root yarn hadoop Anaconda*.sh node01,node02,node03,node04,node05"
+        
+After the installation is complete, you may need to reboot the machines, so that the services running under your "destiny user" user recognize the new environment with the new Python binaries.
